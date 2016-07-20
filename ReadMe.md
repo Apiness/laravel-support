@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/Apiness/laravel-support.svg?branch=master)](https://travis-ci.org/Apiness/laravel-support)
 
-This package  support code to use in Laravel projects.
+This package  provides support code to use in Laravel projects.
 
 
 ## Requirements
