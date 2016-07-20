@@ -47,20 +47,20 @@ class ValueObjectTest extends PHPUnit_Framework_TestCase {
 		$anotherInt = new ConcreteValue(7);
 
 		$this->assertEquals($anInt, $anotherInt);
-		$this->assertTrue($anInt->equals($anotherInt));
+		$this->assertTrue($anInt->isEqualTo($anotherInt));
 
 		$aString = new ConcreteValue('Hello there');
 		$anotherString = new ConcreteValue('Hello there');
 
 		$this->assertEquals($aString, $anotherString);
-		$this->assertTrue($aString->equals($anotherString));
+		$this->assertTrue($aString->isEqualTo($anotherString));
 
 		$instance = new StdClass;
 		$anObject = new ConcreteValue($instance);
 		$anotherObject = new ConcreteValue($instance);
 
 		$this->assertEquals($anObject, $anotherObject);
-		$this->assertTrue($anObject->equals($anotherObject));
+		$this->assertTrue($anObject->isEqualTo($anotherObject));
 	}
 
 }

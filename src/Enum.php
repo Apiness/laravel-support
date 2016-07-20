@@ -26,7 +26,7 @@ abstract class Enum extends ValueObject {
 	public function is($other)
 	{
 		if ($other instanceof ValueObject) {
-			return $this->equals($other);
+			return $this->isEqualTo($other);
 		}
 
 		return $this->value() === $other;

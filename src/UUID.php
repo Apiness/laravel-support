@@ -7,7 +7,7 @@ class UUID extends ValueObject {
 	/**
 	 * Generate a random UUID.
 	 *
-	 * @return static T random UUID.
+	 * @return static A random UUID.
 	 *
 	 * @note The generated value is not RFC 4122 compliant (see https://tools.ietf.org/html/rfc4122).
 	 */
