@@ -7,6 +7,7 @@ This package  provides support code to use in Laravel projects.
 
 ## Requirements
 
+- PHP 5.6+
 - Laravel 5.2+
 
 
