@@ -1,7 +1,7 @@
 <?php namespace Tests;
 
 use PHPUnit_Framework_TestCase;
-use Apiness\Support\Code;
+use Zaltana\Support\Code;
 
 class CodeTest extends PHPUnit_Framework_TestCase {
 

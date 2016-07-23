@@ -1,7 +1,7 @@
 <?php namespace Tests;
 
 use PHPUnit_Framework_TestCase;
-use Apiness\Support\Enum;
+use Zaltana\Support\Enum;
 
 class EnumTest extends PHPUnit_Framework_TestCase {
 

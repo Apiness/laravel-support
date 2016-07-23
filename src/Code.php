@@ -1,4 +1,4 @@
-<?php namespace Apiness\Support;
+<?php namespace Zaltana\Support;
 
 class Code extends ValueObject {
 

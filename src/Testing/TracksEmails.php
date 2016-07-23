@@ -1,4 +1,4 @@
-<?php namespace Apiness\Support\Testing;
+<?php namespace Zaltana\Support\Testing;
 
 use Swift_Message;
 use Swift_Events_EventListener;

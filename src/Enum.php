@@ -1,4 +1,4 @@
-<?php namespace Apiness\Support;
+<?php namespace Zaltana\Support;
 
 abstract class Enum extends ValueObject {
 

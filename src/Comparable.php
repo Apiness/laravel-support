@@ -1,4 +1,4 @@
-<?php namespace Apiness\Support;
+<?php namespace Zaltana\Support;
 
 /**
  * Instances of conforming types can be compared.

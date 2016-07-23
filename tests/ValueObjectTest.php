@@ -2,7 +2,7 @@
 
 use stdClass;
 use PHPUnit_Framework_TestCase;
-use Apiness\Support\ValueObject;
+use Zaltana\Support\ValueObject;
 
 class ValueObjectTest extends PHPUnit_Framework_TestCase {
 

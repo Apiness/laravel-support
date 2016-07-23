@@ -1,4 +1,4 @@
-<?php namespace Apiness\Support;
+<?php namespace Zaltana\Support;
 
 /**
  * A type that can be compared for value equality.

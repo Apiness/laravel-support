@@ -1,12 +1,16 @@
 {
-	"name": "apiness/laravel-support",
+	"name": "zaltana/support",
 	"description": "Support package for Laravel projects",
 	"license": "MIT",
 	"authors": [
-		{
-			"name": "Apiness",
-			"email": "info@apiness.ch"
-		}
+        {
+            "name": "Nicolas Marfurt",
+            "email": "nmarfurt@gmail.com"
+        },
+        {
+            "name": "Nicolas Brosy",
+            "email": "nicolas.brosy@gmail.com"
+        }
 	],
 	"require": {
 		"php": ">=5.6.0",
@@ -18,7 +22,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Apiness\\Support\\": "src/"
+			"Zaltana\\Support\\": "src/"
 		},
 		"files" : [
 			"src/helpers.php"
