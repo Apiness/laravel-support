@@ -10,3 +10,4 @@ _ide_helper.php
 
 # Package
 /vendor/
+composer.lock
